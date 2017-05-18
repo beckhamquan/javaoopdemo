@@ -14,7 +14,7 @@ class Vehicle {
 
 public class SuperKeyWord extends Vehicle {
 	int speed;
-
+   //call constructor of parent class
 	SuperKeyWord(int speed) {
 		this.speed = speed;
 		System.out.println(speed);
