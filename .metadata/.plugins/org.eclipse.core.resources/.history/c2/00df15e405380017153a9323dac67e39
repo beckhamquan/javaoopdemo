@@ -1,0 +1,20 @@
+package com.truonglehungit.javacollection.set;
+
+import java.util.*;
+
+public class LinkedHashSet {
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    LinkedHashSet <String> lhset = new LinkedHashSet<String>();
+ // Adding elements to the LinkedHashSet
+    lhset.add("Z");
+    lhset.add("PQ");
+    lhset.add("N");
+    lhset.add("O");
+    lhset.add("KK");
+    lhset.add("FGH");
+    System.out.println(lhset);
+  }
+
+}

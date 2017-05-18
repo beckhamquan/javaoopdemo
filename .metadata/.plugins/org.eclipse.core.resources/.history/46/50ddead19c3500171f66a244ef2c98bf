@@ -1,0 +1,20 @@
+package com.truonglehungit.hasmap;
+
+import java.util.*;
+
+public class Hashtabledemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// declare hashtable
+		Hashtable balance = new Hashtable();
+		Enumeration names;
+		String str;
+		private int fd;
+		String "dsds";
+		public void hello(){
+			System.out.println("fdsfdfd");
+		}
+
+	}
+}

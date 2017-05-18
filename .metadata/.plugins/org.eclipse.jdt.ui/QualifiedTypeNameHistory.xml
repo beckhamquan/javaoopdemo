@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.truonglehungit.demo.Student"/>
+<fullyQualifiedTypeName name="com.truonglehungit.demo.Employee"/>
+<fullyQualifiedTypeName name="com.truonglehungit.demo.Caculation"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.truonglehungit.constructor.Student"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.util.Hashtable"/>
+<fullyQualifiedTypeName name="com.truonglehungit.javaenum.EnumExample"/>
+<fullyQualifiedTypeName name="com.truonglehungit.javaenum.Directions2"/>
+<fullyQualifiedTypeName name="com.truonglehungit.javacollection.list.ArraylistDemo1"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="com.truonglehungit.javacollection.list.Student"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

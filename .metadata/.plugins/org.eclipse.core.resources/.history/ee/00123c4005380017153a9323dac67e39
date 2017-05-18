@@ -1,0 +1,12 @@
+package com.truonglehungit.javacollection.set;
+
+import java.util.LinkedHashSet;
+
+public class SetLinkedSet {
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    LinkedHashSet<String> lhset = new LinkedHashSet<StringString>();
+  }
+
+}

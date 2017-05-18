@@ -1,0 +1,16 @@
+package com.truonglehungit.javacollection.list;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class ArrayListInitialization {
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    //Method 1: Initialization using Arrays.asList
+    ArrayList<String> obj = new ArrayList<String>(
+        Arrays.asList("TP.HCM","Đồng Nai","Sài gòn"));
+    System.out.println(obj);
+  }
+
+}

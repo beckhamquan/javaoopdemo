@@ -1,0 +1,46 @@
+package com.truonglehungit.javaenum;
+
+
+public class EnumDemo2 {
+
+  public enum Directions2 {
+    EAST, WEST, NORTH, SOUTH
+  }
+
+
+  public class EnumExample {
+    Directions2 dir2;
+
+    public EnumExample(Directions2 dir3) {
+      dir2 = dir3;
+    }
+
+    public void getMyDirections() {
+      switch (dir2) {
+        case EAST:
+          System.out.println("In East Direction");
+          break;
+        case WEST:
+          System.out.println("In West Direction");
+          break;
+
+        case NORTH:
+          System.out.println("In North Direction");
+          break;
+
+        default:
+          System.out.println("In South Direction");
+          break;
+      }
+    }
+  }
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    EnumExample obj1 = new EnumExample(Directions2.EAST);
+    obj1.getMyDirections();
+    EnumExample obj2 = new EnumExample(Directions2.SOUTH);
+    obj2.getMyDirections();
+  }
+
+}

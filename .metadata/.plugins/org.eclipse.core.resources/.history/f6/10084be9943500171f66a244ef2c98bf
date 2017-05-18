@@ -1,0 +1,13 @@
+package com.truonglehungit.hasmap;
+
+import java.util.HashMap;
+
+public class HashmapDemo1 {
+	public static void main(String[] args){
+		//declare hasmap
+		int dsds;
+		
+		HashMap<Integer, String> hmap = new HashMap()<Integer,String>();
+		
+	}
+}

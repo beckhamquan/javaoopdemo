@@ -1,0 +1,31 @@
+package com.truonglehungit.javacollection.list;
+
+import java.util.ArrayList;
+
+/* */
+public class ArraylistDemo1 {
+    //initialize arraylist 
+    public static void main (String[] args){
+    ArrayList <String> obj = new ArrayList<String>();
+    ArrayList<String> obj2 = new ArrayList<String>();
+    //add element
+    obj.add("TP.HCM");
+    obj.add("Đồng Nai");
+    obj.add("Bình Dương");
+    //display element
+    System.out.println("element: "+obj);  //-->[TP.HCM, Đồng Nai, Bình Dương]
+    //add element at the given index
+    obj.add(0,"Bến Tre");
+    System.out.println("element2: "+obj); //[Bến Tre, TP.HCM, Đồng Nai, Bình Dương]
+    //remove element from given index
+    obj.remove(2);
+    System.out.println("element3: "+obj); //[Bến Tre, TP.HCM, Bình Dương]
+    //remove by given contain
+    obj.remove("TP.HCM");
+    System.out.println("element3: "+obj);  //[Bến Tre, Bình Dương]
+    int index = obj.indexOf("Bến Tre");
+    System.out.println(index);   //return -1 if not found,return index if found   
+    String str= obj.get(2);
+    System.out.println(str);
+    }
+}

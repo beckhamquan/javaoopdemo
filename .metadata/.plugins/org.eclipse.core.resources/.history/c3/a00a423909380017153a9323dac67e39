@@ -1,0 +1,33 @@
+package com.truonglehungit.javacollection.list;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class ArraylistSort {
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+    ArrayList<String> listofcountries = new ArrayList<String>();
+    listofcountries.add("India");
+    listofcountries.add("US");
+    listofcountries.add("China");
+    listofcountries.add("Denmark");
+
+    /* Unsorted List */
+    System.out.println("Before Sorting:");
+    for (String counter : listofcountries) {
+      System.out.println(counter);
+    }
+
+    /* Sort statement */
+    Collections.sort(listofcountries);
+
+    /* Sorted List */
+    System.out.println("After Sorting:");
+    for (String counter : listofcountries) {
+      System.out.println(counter);
+    }
+  }
+}
+
+
